@@ -15,14 +15,7 @@ h2 {
 
 .meny {
   background-color: rgb(94, 173, 128);
-}
-
-.top-img {
-  text-align: center;
-}
-.top-img img {
-  margin: 20px;
-  border-radius: 10px;
+  flex: 1;
 }
 
 .meny-lista {
@@ -30,6 +23,12 @@ h2 {
   display: flex;
   gap: 3rem;
   justify-content: center;
+  list-style: none;
+  padding: 5px 0px;
+}
+
+.meny-lista li {
+  font-size: 1.2rem;
 }
 
 a {
@@ -39,7 +38,7 @@ a {
 
 .startsida {
   display: flex;
-  max-width: 900px;
+  max-width: 1000px;
   flex-direction: column;
   align-items: center;
 }
